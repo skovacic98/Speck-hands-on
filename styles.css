@@ -52,34 +52,49 @@ h2 {
     text-transform: uppercase;
 }
 
+.button_nav {
+    width: 150px;
+}
+
+.button_secondary {
+    background: var(--color-primary);
+    color: var(--color-bg-primary);
+}
 
 /* HEADER */
 .header {
-
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 32px 0;
 }
 
-.header_inner {
-
-}
-
-.header__logo-link {
-
+.header__inner {
+    width: 1300px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__logo {
-
-}
-
-.header__nav {
-
+    width: 140px;
 }
 
 .header__nav-link {
-
+    color: var(--color-secondary);
+    letter-spacing: 1px;
+    margin: 48px;
 }
 
 .header__nav-button {
-    
+    margin-right: 24px;
+}
+
+.header__nav-button:last-child{
+    margin-right: 0;
 }
 
 /* LANDING SECTION */
